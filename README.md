@@ -157,6 +157,7 @@ Model ANN dibandingkan dalam 3 konfigurasi (`shallow`, `medium`, `deep`). Metrik
 
 
 **Rubrik Tambahan:**
+
 $$
 \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 $$
@@ -164,8 +165,6 @@ $$
 - \( y_i \): nilai sebenarnya (ground truth)
 - \( \hat{y}_i \): nilai prediksi dari model
 - \( n \): jumlah total sampel
-
-
 MSE menghitung rata-rata kuadrat selisih antara nilai aktual dan prediksi. Karena selisih dikuadratkan, MSE sangat sensitif terhadap kesalahan besar (outlier). Semakin kecil MSE, semakin baik prediksi model.
 
 $$
