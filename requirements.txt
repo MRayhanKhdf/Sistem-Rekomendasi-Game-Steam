@@ -1,0 +1,10 @@
+requests 
+numpy
+pandas 
+matplotlib 
+scikit-learn 
+tqdm 
+tensorflow
+protobuf==3.20.*
+streamlit
+pickle
